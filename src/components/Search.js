@@ -2,13 +2,13 @@ import React, { useState } from "react";
 import getImages from "../requests/getImages";
 import "../styles/search.css";
 
-function Search({ setSearchResults }) {
+const Search = ({ setSearchResults }) => {
   const [value, setValue] = useState();
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setSearchResults(getImages(value));
-  }
+  };
 
   return (
     <>
@@ -29,6 +29,6 @@ function Search({ setSearchResults }) {
       </form>
     </>
   );
-}
+};
 
 export default Search;

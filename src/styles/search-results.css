@@ -1,0 +1,14 @@
+.search-results-text {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+}
+
+.search-result {
+  width: 300px;
+  height: 210px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 6px;
+}

@@ -11,7 +11,7 @@ const App = () => {
     <div className="app">
       <img className="nasa-logo" src={nasaLogo} alt="Nasa Logo"></img>
       <Search setSearchResults={setSearchResults} />
-      <SearchResults />
+      <SearchResults results={searchresults} />
     </div>
   );
 };

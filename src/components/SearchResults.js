@@ -1,16 +1,15 @@
 import React from "react";
 import "../styles/search-results.css";
+import testImage from "../assets/images/test-image.jpeg";
 
-const SearchResults = () => {
-  return (
+const SearchResults = ({ results }) => {
+  return results && results.length > 0 ? (
     <>
       <p className="search-results-text">Search Results</p>
-      <img
-        className="search-result"
-        src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-        alt="test-result"
-      ></img>
+      <img className="search-result" src={testImage} alt="test-result"></img>
     </>
+  ) : (
+    <p className="search-results-text">No results</p>
   );
 };
 

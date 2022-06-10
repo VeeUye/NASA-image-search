@@ -4,11 +4,28 @@
   font-size: 1.2rem;
 }
 
-.search-result {
+.search-results-wrap {
+  overflow-x: scroll;
+  width: 90vw;
+}
+
+.search-results {
+  display: flex;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+
+.search-results::-webkit-scrollbar {
+  display: none;
+}
+
+.search-results-image {
   width: 300px;
-  height: 210px;
-  left: 0px;
-  top: 0px;
-  bottom: 0px;
-  border-radius: 6px;
+  margin-right: 1rem;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.search-results-image:hover {
+  opacity: 1;
 }

@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/search-results.css";
-import testImage from "../assets/images/test-image.jpeg";
 
 const SearchResults = ({ results }) => {
   const images = results?.map((image, index) => (

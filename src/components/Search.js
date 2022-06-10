@@ -16,7 +16,7 @@ const Search = ({ setSearchResults }) => {
         <input
           className="search-input"
           type="text"
-          placeholder="moon"
+          // placeholder="moon"
           onChange={(e) => setValue(e.target.value)}
         />
         <button

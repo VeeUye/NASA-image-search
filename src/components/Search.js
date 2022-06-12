@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import getImages from "../requests/getImages";
 import "../styles/search.css";
 
@@ -10,13 +11,17 @@ const Search = ({ setSearchResults }) => {
     setSearchResults(await getImages(value));
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 70);
+  }, [value]);
+
   return (
     <>
       <form className="search-form" onSubmit={handleSubmit}>
         <input
           className="search-input"
           type="text"
-          // placeholder="moon"
+          placeholder="moon"
           onChange={(e) => setValue(e.target.value)}
         />
         <button
@@ -32,3 +37,7 @@ const Search = ({ setSearchResults }) => {
 };
 
 export default Search;
+
+Search.propTypes = {
+  setSearchResults: PropTypes.func.isRequired,
+};

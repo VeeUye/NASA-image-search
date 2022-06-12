@@ -5,37 +5,36 @@ exports[`App renders correctly 1`] = `
   <div
     class="app"
   >
-    <img
-      alt="Nasa Logo"
-      class="nasa-logo"
-      src="nasa-logo.jpeg"
-    />
-    <form
-      class="search-form"
+    <div
+      class="header-wrap"
     >
-      <input
-        class="search-input"
-        placeholder="moon"
-        type="text"
+      <img
+        alt="Nasa Logo"
+        class="nasa-logo"
+        src="nasa-logo.jpeg"
       />
-      <button
-        class="search-button"
-        data-testid="button-text"
-        type="submit"
+      <form
+        class="search-form"
       >
-        Go!
-      </button>
-    </form>
+        <input
+          class="search-input"
+          placeholder="moon"
+          type="text"
+        />
+        <button
+          class="search-button"
+          data-testid="button-text"
+          type="submit"
+        >
+          Go!
+        </button>
+      </form>
+    </div>
     <p
       class="search-results-text"
     >
-      Search Results
+      No results
     </p>
-    <img
-      alt="test-result"
-      class="search-result"
-      src="https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80"
-    />
   </div>
 </DocumentFragment>
 `;

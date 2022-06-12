@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../styles/search-results.css";
 
 const SearchResults = ({ results }) => {
@@ -16,8 +17,6 @@ const SearchResults = ({ results }) => {
       <div className="search-results-wrap">
         <div className="search-results">{images}</div>
       </div>
-
-      {/* <img className="search-result" src={testImage} alt="test result"></img> */}
     </>
   ) : (
     <p className="search-results-text">No results</p>
@@ -25,3 +24,7 @@ const SearchResults = ({ results }) => {
 };
 
 export default SearchResults;
+
+SearchResults.propTypes = {
+  results: PropTypes.arrayOf(PropTypes.string).isRequired,
+};

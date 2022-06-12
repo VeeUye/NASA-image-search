@@ -1,27 +1,32 @@
 .search-results-text {
   margin-top: 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 1.2rem;
 }
 
 .search-results-wrap {
-  overflow-x: scroll;
-  width: 90vw;
+  overflow-x: auto;
+  display: flex;
+  z-index: -1;
 }
 
 .search-results {
   display: flex;
-  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 300px; */
   margin-bottom: 1rem;
 }
 
-.search-results::-webkit-scrollbar {
+.search-results-wrap::-webkit-scrollbar {
   display: none;
 }
 
 .search-results-image {
   width: 300px;
-  margin-right: 1rem;
+  height: 300px;
+  margin-bottom: 1rem;
   opacity: 0.5;
   object-fit: cover;
 }

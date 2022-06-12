@@ -5,13 +5,15 @@ import nasaLogo from "../assets/images/nasa-logo.jpeg";
 import SearchResults from "./SearchResults";
 
 const App = () => {
-  const [searchresults, setSearchResults] = useState();
+  const [searchResults, setSearchResults] = useState([]);
 
   return (
     <div className="app">
-      <img className="nasa-logo" src={nasaLogo} alt="Nasa Logo"></img>
-      <Search setSearchResults={setSearchResults} />
-      <SearchResults results={searchresults} />
+      <div className="header-wrap">
+        <img className="nasa-logo" src={nasaLogo} alt="Nasa Logo"></img>
+        <Search setSearchResults={setSearchResults} />
+      </div>
+      <SearchResults results={searchResults} />
     </div>
   );
 };

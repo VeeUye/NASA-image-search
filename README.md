@@ -25,7 +25,7 @@ The following functionality was required:
 - A Search page which allows users to search for images by keyword
 - Images must be returned upon a successful search
 
-## Screenshots
+## Screenshot
 
 ### Mobile Version
 

@@ -1,49 +1,91 @@
-# Mock React Technical Test
+# NASA Image Search App 🚀 🧑🏾‍🚀 🪐
 
-This project is a mock tech test, and forms part of the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
+This project is a mock React technical test. It was created as part of my studies on the [Manchester Codes](https://www.manchestercodes.com/) Bootcamp.
 
-The README will be updated as the project progresses.
+- [Brief](#the-brief)
+- [Screenshots](#screenshots)
+- [Technologies](#technologies)
+  - [Languages & Library](#language--library)
+  - [Testing Utilities](#testing-utilities)
+  - [Packages](#packages)
+- [Open NASA Search App in GitHub Pages](#open-nasa-search-app-in-github-pages)
+- [Run NASA Search App in Development Mode](#run-nasa-search-app-in-development-mode)
+- [Run Tests](#run-tests)
+- [Roadmap](#roadmap)
+- [Contributions](#contributions)
+- [Acknowledgements](#acknowledgements)
+- [Project Status](#project-status)
 
 ## The Brief
 
-"You are expected to build a React web application that allows users to search for images based on a query relating to space. You are provided the NASA API endpoint for image search.
-We want you to consider and add anything to your repository that should be included was this to be a live website.
+The goal was to build a React web app that allows user to search for images through the NASA image search API.
 
-The following functionalities need to be implemented:
+The following functionality was required:
 
-- [ ] A Search page which allows users to search for images by keyword
-- [ ] Images must be returned upon a successful search
+- A Search page which allows users to search for images by keyword
+- Images must be returned upon a successful search
 
-The styling is up to you but will be taken into consideration when evaluating your application.
+## Screenshots
 
-We estimate this task to take ​​10 hours​​. Once you have completed the task upload the repository to GitHub and send the link to xxxxx@xxx.com. ​Deadline: 5 days from receiving."
+### Mobile Version
 
-### Relevant API endpoints:
+![NASA Search Mobile Version](/README-assets/mobile-screenshot.png?raw=true "Mobile Version")
 
-image search:
-GET​​ ​​https://images-api.nasa.gov/search ​Params: ​​q
+### Desktop Version
 
-### Assets
+![NASA Search Desktop Version](/README-assets/desktop-screenshot.png?raw=true "Desktop Version")
 
-You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg
+## Technologies
 
-### Examples
+### Language & Library
 
-![Example Images](README-assets/brief-example-image.png?raw=true "Title")
+- Javascript
+- React
 
-## Getting Started
+### Testing Utilities
 
-In the project directory, you can run:
+- Jest
+- React Testing Library
 
-### `npm start`
+### Packages
 
+- Axios
+- PropTypes
+
+## Open NASA Search App in GitHub Pages
+
+## Run NASA Search App in Development Mode
+
+Clone [this repo](https://github.com/VeeUye/tech-test-mcr-codes). For more information on how to do this, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
+
+Run `npm start` to run the app in your preferred browser.
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### Run Tests
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run `npm test` to launches the test runner in watch mode.
+See [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Roadmap
+
+- [ ] Open user selected image in modal
+- [ ] Add on focus styling for mobile
+- [ ] Add functionality to download selected images
+
+## Contributions
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Acknowledgements
+
+[Manchester Codes](https://www.manchestercodes.com/) for including this project on their Bootcamp learning track.
+
+## Project Status
+
+Active!

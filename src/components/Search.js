@@ -9,10 +9,11 @@ const Search = ({ setSearchResults }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSearchResults(await getImages(value));
+    // window.scrollTo(0, 70);
   };
 
   useEffect(() => {
-    window.scrollTo(0, 70);
+    window.scrollTo(0, 0);
   }, [value]);
 
   return (

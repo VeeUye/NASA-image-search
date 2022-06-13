@@ -52,9 +52,11 @@ The following functionality was required:
 - Axios
 - PropTypes
 
-## Open NASA Search App in GitHub Pages
+## Open NASA Image Search App in GitHub Pages
 
-## Run NASA Search App in Development Mode
+NASA Image Search App is hosted here on GitHub Pages [https://veeuye.github.io/NASA-image-search/](https://veeuye.github.io/NASA-image-search/). You can get started by opening the link in your preferred browser.
+
+## Run NASA Image Search App in Development Mode
 
 Clone [this repo](https://github.com/VeeUye/tech-test-mcr-codes). For more information on how to do this, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 

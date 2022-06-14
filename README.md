@@ -77,6 +77,7 @@ See [running tests](https://facebook.github.io/create-react-app/docs/running-tes
 - [ ] Open user selected image in modal
 - [ ] Add on focus styling for mobile
 - [ ] Add functionality to download selected images
+- [ ] Write a test for getImages with mock data
 
 ## Contributions
 

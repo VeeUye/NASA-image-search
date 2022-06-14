@@ -8,8 +8,8 @@ This project is a mock React technical test. It was created as part of my studie
   - [Languages & Library](#language--library)
   - [Testing Utilities](#testing-utilities)
   - [Packages](#packages)
-- [Open NASA Image Search App in GitHub Pages](#open-nasa-image-search-app-in-github-pages)
-- [Run NASA Image Search App in Development Mode](#run-nasa-image-search-app-in-development-mode)
+- [Open NASA Image Search App in GitHub Pages](#open-nasa-image-search-in-github-pages)
+- [Run NASA Image Search App in Development Mode](#run-nasa-image-search-in-development-mode)
 - [Run Tests](#run-tests)
 - [Roadmap](#roadmap)
 - [Contributions](#contributions)
@@ -52,24 +52,23 @@ The following functionality was required:
 - Axios
 - PropTypes
 
-## Open NASA Image Search App in GitHub Pages
+## Open NASA Image Search in GitHub Pages
 
 NASA Image Search App is hosted here on GitHub Pages [https://veeuye.github.io/NASA-image-search/](https://veeuye.github.io/NASA-image-search/). You can get started by opening the link in your preferred browser.
 
-## Run NASA Image Search App in Development Mode
+## Run NASA Image Search in Development Mode
 
 Clone [this repo](https://github.com/VeeUye/tech-test-mcr-codes). For more information on how to do this, visit [cloning a repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository).
 
-Run `npm start` to run the app in your preferred browser.
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+`npm start` runs the app in the development mode.\
+ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ You may also see any lint errors in the console.
 
 ### Run Tests
 
-Run `npm test` to launches the test runner in watch mode.
+Run `npm test` to launch the test runner in watch mode.
 See [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## Roadmap
